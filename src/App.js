@@ -9,7 +9,7 @@ function App ()
   return (
     <div className={`react-root ${color}`}>
       <div className='centered'>
-        <h1>Color Picker</h1>
+        <h1>Hi Babe!</h1>
         <ColorChangeButton color='red' setColor={setColor}/>
         <ColorChangeButton color='blue' setColor={setColor}/>
         <ColorChangeButton color='yellow' setColor={setColor}/>
