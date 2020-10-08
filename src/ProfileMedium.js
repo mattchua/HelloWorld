@@ -2,9 +2,9 @@
 import React from 'react'
 import ProfileImg from './ProfileImg'
 import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEdit } from '@fortawesome/free-solid-svg-icons'
-import {faBirthdayCake} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from './@fortawesome/react-fontawesome'
+import { faEdit } from './@fortawesome/free-solid-svg-icons'
+import {faBirthdayCake} from './@fortawesome/free-solid-svg-icons'
 
 
 function ProfileMedium (props)
