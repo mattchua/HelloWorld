@@ -1,15 +1,16 @@
 html, body, #root, .react-root {
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   background-color: white;
   color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+  justify-content: left;
+  align-items: left;
+  padding: 1px;
 }
 
-.centered {
-  text-align: center;
+.left {
+  text-align: left;
 }
 
 button {
@@ -33,4 +34,41 @@ button {
 .yellow {
   background-color: rgba(1, 167, 57, 0.938);
   color: black;
+}
+
+.profile{
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: cornflowerblue;
+  padding: 20px;
+  max-width: 300px;
+  max-height: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.ProfileImg{
+  align-self: center;
+  justify-content: center;
+  margin: 10px;
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.editButton{
+  vertical-align: middle;
+}
+
+.birthdayMessage{
+  vertical-align: middle;
+  height: 100%;
+  margin: 5px;
+}
+
+.messageRow{
+  justify-content: center;
+  align-items: center;
 }
